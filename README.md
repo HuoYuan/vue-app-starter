@@ -1,6 +1,6 @@
 # project-name
 
-A basic TB app.
+A basic web app.
 
 ## 开发、测试、打包命令
 
@@ -128,5 +128,5 @@ router        路由
 svg/png/eot/json/other :
 
         在 .vue 文件的 <style> 标签中，或 .less 文件中：使用 `background: url(~@/assets/images/xxx.png);`
-        
+
         在 js 代码中推荐使用 `const xxx = require('@/assets/images/xxx.png')` [ * 当然你要是想用 import xxx from '@/assets/images/xxx.png' 也可以，但 require 更加清楚地表明了这是 webpack 的能力，所以更推荐前者 ]
