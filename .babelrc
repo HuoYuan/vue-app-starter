@@ -1,0 +1,44 @@
+{
+  "presets": [
+    "es2015",
+    "stage-3"
+  ],
+  "plugins": [
+    "transform-runtime",    
+    "transform-decorators-legacy",
+    "transform-class-properties",
+    [
+      "component",
+      [
+        {
+          "libraryName": "element-ui",
+          "styleLibraryName": "~src/theme"
+        }
+      ]
+    ]
+  ],
+  "comments": false,
+  "env": {
+    "test": {
+      "presets": [
+        "es2015",
+        "stage-3"
+      ],
+      "plugins": [
+        "istanbul",
+        "transform-runtime",    
+        "transform-decorators-legacy",
+        "transform-class-properties",
+        [
+          "component",
+          [
+            {
+              "libraryName": "element-ui",
+              "styleLibraryName": "~src/theme"
+            }
+          ]
+        ]
+      ]
+    }
+  }
+}

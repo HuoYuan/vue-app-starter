@@ -1,0 +1,55 @@
+@import 'colors.less';
+
+.hidden-box {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+  appearance: none;
+  opacity: 0;
+}
+
+.check--label {
+  font-size: 12px;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.check--label-box {
+  display: flex;
+  align-self: center;
+  position: relative;
+  height: 14px;
+  width: 14px;
+  // margin: 0 20px;
+  border: 1px solid @textGray;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+// the magic
+.hidden-box:checked + .check--label {
+  .check--label-box {
+    border-color: @textBlue;
+     &:after {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 1px;
+      left: 3px;
+      width: 4px;
+      height: 6px;
+      border: solid @textBlue;
+      border-width: 0 1px 1px 0;
+      transform: rotate(45deg);
+    }
+  }
+  .check--label-text {
+    &:after {
+      width: 85%;
+    }
+  }
+}

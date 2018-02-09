@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41 (35326) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-tick</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon-copy-9" fill="#808080">
+            <path d="M8.0782,14.7666 C7.9192,14.7666 7.7662,14.7046 7.6542,14.5906 L3.1642,10.1006 C2.9302,9.8666 2.9302,9.4866 3.1642,9.2526 C3.3992,9.0186 3.7792,9.0186 4.0132,9.2526 L8.0782,13.3186 L15.9872,5.4096 C16.2222,5.1746 16.6012,5.1746 16.8362,5.4096 C17.0702,5.6436 17.0702,6.0236 16.8362,6.2576 L8.5022,14.5906 C8.3902,14.7046 8.2372,14.7666 8.0782,14.7666 L8.0782,14.7666 Z" id="fill"></path>
+        </g>
+    </g>
+</svg>

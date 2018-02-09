@@ -1,0 +1,59 @@
+@import "./buttons.less";
+@import "./input.less";
+@import "./table.less";
+@import "./textarea.less";
+@import "./iconfont.css";
+@import "./scrollbar.less";
+@import "./pointer.less";
+
+body {
+  font-size: 14px;
+  background: #f5f5f5;
+  font-family: Helvetica Neue, PingFang SC, Microsoft Yahei, '\5FAE\8F6F\96C5\9ED1', STXihei, '\534E\6587\7EC6\9ED1', sans-serif;  
+}
+
+* {
+  box-sizing: border-box;
+  text-align: left;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+}
+
+button {
+  padding: 0;
+  cursor: pointer;
+}
+
+button, input, textarea {
+  outline: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+input {
+  padding: 0px;
+  border: none;
+  box-shadow: none;
+
+  &:focus, &:active, &:hover {
+    box-shadow: none;
+    outline: none;
+  }
+
+  &::placeholder {
+    color: #ccc;
+  }
+}

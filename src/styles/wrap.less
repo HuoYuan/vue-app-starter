@@ -1,0 +1,30 @@
+@import 'colors.less';
+
+.wrap {
+  width: 1100px;
+  margin: auto;
+  background-color: white;
+  .header {
+    display: flex;
+    height: 60px;
+    border-bottom: 1px solid #e5e5e5;
+    .title {
+      margin: 17px 24px;
+      flex: 1;
+      font-size: 18px;
+      line-height: 1.44;
+      color: @textBlack;
+      text-align: left;
+    }
+    .operationButtons {
+      display: flex;
+      margin: 10px 30px;
+
+      .global--button {
+        margin-left: 12px;
+
+        cursor: pointer;
+      }
+    }
+  }
+}

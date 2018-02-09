@@ -1,0 +1,28 @@
+@import "./colors.less";
+
+.app {
+  width: 1100px;
+  margin: auto;
+  background: #fff;
+  > .header {
+    display: flex;
+    height: 60px;
+    border-bottom: 1px solid @borderGray;
+    > .title {
+      margin: 17px 16px;
+      flex: 1;
+      font-size: 18px;
+      line-height: 1.44;
+      color: @textBlack;
+      text-align: left;
+    }
+    > .buttons {
+      display: flex;
+      margin: 11.5px 16px;
+      line-height: 60px;
+      > .button {
+        margin-left: 12px;
+      }
+    }
+  }
+}
